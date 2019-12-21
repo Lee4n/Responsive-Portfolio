@@ -6,6 +6,7 @@ body {
 }
 
 /* navigation */
+
 nav {
     float: right;
     margin: 10px;
@@ -35,6 +36,7 @@ a:hover {
 }
 
 /* header */
+
 .header {
     box-shadow: 0 4px 2px -2px #cccccc;
     height: 80px;
@@ -61,6 +63,7 @@ h1 {
 }
 
 /* content */
+
 .content {
     width: 960px;
     margin: auto;
@@ -97,6 +100,13 @@ p {
     height: 200px;
 }
 
+.profilePic {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 15px;
+}
+
 .container .btn {
     position: absolute;
     top: 135px;
@@ -112,6 +122,7 @@ p {
 }
 
 /* Contact Form */
+
 input[type=text],
 textarea {
     width: 100%;
@@ -138,6 +149,7 @@ label {
 }
 
 /* footer */
+
 #footer {
     height: 50px;
     background: #666666;
@@ -179,15 +191,12 @@ label {
 @media screen and (max-width: 768px) {
     .content {
         width: 600px;
-        
     }
 
     .p-wrapper {
         width: 100%;
         margin: 0;
     }
-
-    
 
     nav {
         margin-right: 0px;
@@ -207,6 +216,10 @@ label {
     .p-wrapper {
         width: 100%;
         margin: 0;
+    }
+
+    p {
+        font-size: 19px;
     }
 
     .header-wrapper {
@@ -231,4 +244,27 @@ label {
     h1 {
         margin: 0;
     }
+
+    .profilePic {
+        width: 100%;
+        height: auto;
+    }
+
+    .container {
+        float: none;
+        width: 100%;
+        height: auto;
+        line-height: 3.5rem;
+    }
+
+    .container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .container .btn {
+        width: 100%;
+        top: 14rem;
+    }
+
 }
