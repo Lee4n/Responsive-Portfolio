@@ -165,14 +165,16 @@ label {
 
 /* Mobile Responsiveness */
 
-@media screen and (max-width: 980px) {
+@media (max-width: 980px) {
     .content {
-        width: 490px;
+        width: 640px;
+        margin: 32px 200px 100px 20px;
     }
 
     .p-wrapper {
         width: 100%;
         margin: 0;
+        float: none;
     }
 
     .header-wrapper {
@@ -184,31 +186,44 @@ label {
     }
 
     .brand {
-        margin-left: 0px;
+        margin-left: 19px;
+    }
+
+    .container {
+        width: 50%;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     .content {
-        width: 600px;
+        width: 650px;
+    }
+
+    .header-wrapper {
+        width: 100%;
     }
 
     .p-wrapper {
         width: 100%;
         margin: 0;
+        float: none;
     }
 
     nav {
-        margin-right: 0px;
+        margin-right: 1rem;
     }
 
     .brand {
         margin-left: 18px;
     }
 
+    .container {
+        width: 50%;
+    }
+
 }
 
-@media screen and (max-width: 640px) {
+@media (max-width: 640px) {
     .content {
         width: 385px;
     }
